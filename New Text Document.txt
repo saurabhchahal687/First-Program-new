@@ -1,0 +1,292 @@
+Microsoft Windows [Version 10.0.19045.6216]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\saura>cd desktop
+
+C:\Users\saura\Desktop>cd codebase
+
+C:\Users\saura\Desktop\codebase>git clone https://github.com/saurabhchahal687/First-Program.git
+fatal: destination path 'First-Program' already exists and is not an empty directory.
+
+C:\Users\saura\Desktop\codebase>git clone https://github.com/saurabhchahal687/First-Program-new.git
+Cloning into 'First-Program-new'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\saura\Desktop\codebase>cd first-program-new
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README.md
+        package-lock.json
+        package.json
+        public/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reportWebVitals.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/setupTests.js', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README.md
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/favicon.ico
+        new file:   public/index.html
+        new file:   public/logo192.png
+        new file:   public/logo512.png
+        new file:   public/manifest.json
+        new file:   public/robots.txt
+        new file:   src/App.css
+        new file:   src/App.js
+        new file:   src/App.test.js
+        new file:   src/components/headerComponent/index.js
+        new file:   src/components/homePage/index.css
+        new file:   src/components/homePage/index.js
+        new file:   src/components/myFirstComponent.js
+        new file:   src/components/propsLearning.js
+        new file:   src/components/settings/index.js
+        new file:   src/index.css
+        new file:   src/index.js
+        new file:   src/logo.svg
+        new file:   src/reportWebVitals.js
+        new file:   src/routes.js
+        new file:   src/setupTests.js
+
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'saura@LAPTOP-N9HEU77K.(none)')
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git config --global user.email "saurabh.chahal6879@gamil.com"
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git config --global user.name "saurabh chahal"
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git config
+error: no action specified
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=true
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.email=saurabh.chahal6879@gamil.com
+user.name=saurabh chahal
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+remote.origin.url=https://github.com/saurabhchahal687/First-Program-new.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README.md
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/favicon.ico
+        new file:   public/index.html
+        new file:   public/logo192.png
+        new file:   public/logo512.png
+        new file:   public/manifest.json
+        new file:   public/robots.txt
+        new file:   src/App.css
+        new file:   src/App.js
+        new file:   src/App.test.js
+        new file:   src/components/headerComponent/index.js
+        new file:   src/components/homePage/index.css
+        new file:   src/components/homePage/index.js
+        new file:   src/components/myFirstComponent.js
+        new file:   src/components/propsLearning.js
+        new file:   src/components/settings/index.js
+        new file:   src/index.css
+        new file:   src/index.js
+        new file:   src/logo.svg
+        new file:   src/reportWebVitals.js
+        new file:   src/routes.js
+        new file:   src/setupTests.js
+
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git commit -m "first commit"
+[main (root-commit) b93b684] first commit
+ 25 files changed, 18045 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/logo192.png
+ create mode 100644 public/logo512.png
+ create mode 100644 public/manifest.json
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/components/headerComponent/index.js
+ create mode 100644 src/components/homePage/index.css
+ create mode 100644 src/components/homePage/index.js
+ create mode 100644 src/components/myFirstComponent.js
+ create mode 100644 src/components/propsLearning.js
+ create mode 100644 src/components/settings/index.js
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/reportWebVitals.js
+ create mode 100644 src/routes.js
+ create mode 100644 src/setupTests.js
+
+C:\Users\saura\Desktop\codebase\First-Program-new>
+C:\Users\saura\Desktop\codebase\First-Program-new>
+C:\Users\saura\Desktop\codebase\First-Program-new>
+C:\Users\saura\Desktop\codebase\First-Program-new>git push
+info: please complete authentication in your browser...
+Enumerating objects: 31, done.
+Counting objects: 100% (31/31), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (28/28), done.
+Writing objects: 100% (31/31), 177.16 KiB | 4.54 MiB/s, done.
+Total 31 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/saurabhchahal687/First-Program-new.git
+ * [new branch]      main -> main
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git log
+commit 98828a2f6fc26c0f9b0941c052a1335b3942c125 (HEAD -> main)
+Author: saurabh chahal <saurabh.chahal6879@gamil.com>
+Date:   Thu Aug 21 12:48:49 2025 +0530
+
+    test_commit
+
+commit b93b684fd9289ca0958796bb54a4511edc4cbd06 (origin/main)
+Author: saurabh chahal <saurabh.chahal6879@gamil.com>
+Date:   Thu Aug 21 12:41:33 2025 +0530
+
+    first commit
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 353 bytes | 353.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/saurabhchahal687/First-Program-new.git
+   b93b684..98828a2  main -> main
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git branch newbranch
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git branch
+* main
+  newbranch
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git checkout -b nextBranch
+Switched to a new branch 'nextBranch'
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git branch
+  main
+  newbranch
+* nextBranch
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git log
+commit c5e46221a4d45abeeeb1d55675efe7166750b8e3 (HEAD -> nextBranch)
+Author: saurabh chahal <saurabh.chahal6879@gamil.com>
+Date:   Thu Aug 21 12:54:33 2025 +0530
+
+    nextBranch
+
+commit 98828a2f6fc26c0f9b0941c052a1335b3942c125 (origin/main, newbranch, main)
+Author: saurabh chahal <saurabh.chahal6879@gamil.com>
+Date:   Thu Aug 21 12:48:49 2025 +0530
+
+    test_commit
+
+commit b93b684fd9289ca0958796bb54a4511edc4cbd06
+Author: saurabh chahal <saurabh.chahal6879@gamil.com>
+Date:   Thu Aug 21 12:41:33 2025 +0530
+
+    first commit
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git push
+fatal: The current branch nextBranch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin nextBranch
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\saura\Desktop\codebase\First-Program-new>git push --set-upstream origin nextBranch
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 366 bytes | 183.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'nextBranch' on GitHub by visiting:
+remote:      https://github.com/saurabhchahal687/First-Program-new/pull/new/nextBranch
+remote:
+To https://github.com/saurabhchahal687/First-Program-new.git
+ * [new branch]      nextBranch -> nextBranch
+branch 'nextBranch' set up to track 'origin/nextBranch'.
+
+C:\Users\saura\Desktop\codebase\First-Program-new>

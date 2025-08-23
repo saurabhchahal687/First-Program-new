@@ -24,6 +24,7 @@ root.render(
   // </BrowserRouter>
 
   <React.StrictMode>
+    {/* development mode , runs twice */}
       <App />
     </React.StrictMode>
   
